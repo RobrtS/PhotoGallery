@@ -1,3 +1,48 @@
+/*-------GERAL------------*/
 *{
     box-sizing: border-box;
+}
+/*------IMAGE-----------*/
+#gallery img{
+   /*------content----*/ 
+    width:25%;
+    height: 300px;
+    object-fit: cover;
+
+    /*------MARGIN----*/
+    margin-top:8px;
+
+    /*------PADDING---*/
+    padding: 0 4px;
+
+    /*------BORDER----*/
+    border-radius: 10px;
+}
+
+/*-------BODY-----------*/
+body{
+
+    /*------MARGIN----*/
+    margin: 0;
+
+    /*------FONT------*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBE7E7;
+}
+.header{
+    text-align: center;
+
+    /*------PADDING---*/
+    padding: 32px;
+    background-color: #E0dddd;
+}
+#gallery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /*------PADDING---*/
+    padding: 0 4px;
 }
